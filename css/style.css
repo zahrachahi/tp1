@@ -1,0 +1,62 @@
+/*
+    Created on : oct. 2019
+    Author     : herauste
+*/
+
+
+h2 {
+    margin-bottom: 5px;
+}
+
+#clock {
+    height: 15px;
+    margin-left: 50px; 
+    font-size : 14pt;
+}
+
+#hour {
+    font-weight: bold;
+}
+
+#bclock {
+    margin: 10px 0 0 35px;
+}
+
+#deplace {
+    height: 100px;
+}
+
+#bdeplace {
+    text-align: center;
+    width: 500px;
+    margin-bottom: 20px;
+}
+
+.bouton {
+    margin: 0 10px;
+    width: 70px;
+}
+
+#img1 {
+	width: 200px;
+	height: 80px;
+	float: left;
+}
+
+article {
+	width: 600px;
+}
+
+article div {
+	margin: 15px 10px 10px 0;
+}
+
+article img {
+	margin-right: 15px;
+}
+
+footer {
+	width: 500px;
+	text-align: center;
+}
+
