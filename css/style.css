@@ -42,6 +42,13 @@ h2 {
 	height: 80px;
 	float: left;
 }
+#img2 {
+	width: 200px;
+	height: 80px;
+    border: 2px solid black;
+    margin-top: 50px; 
+    margin-left:auto;
+}
 
 article {
 	width: 600px;
