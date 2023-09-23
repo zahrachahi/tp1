@@ -8,6 +8,10 @@ h2 {
     margin-bottom: 5px;
 }
 
+#reg {
+    margin-bottom: 5px;
+    color: red;
+}
 #clock {
     height: 15px;
     margin-left: 50px; 
@@ -43,6 +47,13 @@ h2 {
 	float: left;
 }
 
+#img2 {
+	width: 200px;
+	height: 80px;
+    border: 2px solid black;
+    margin-top: 50px; 
+    margin-left:auto;
+}
 article {
 	width: 600px;
 }
