@@ -5,6 +5,39 @@
     <title>Git Commands</title>
 </head>
 <body>
+
+    <a href="index.html">Acceder a la page index</a>
+    <nav id="menu"></nav>
+
+    <script>
+        // Fonction pour créer le menu
+        function creerMenu() {
+            // Sélectionnez la balise nav avec l'identifiant "menu"
+            var menu = document.getElementById("menu");
+
+            // Créez une liste non ordonnée (ul)
+            var ul = document.createElement("ul");
+
+            // Créez les éléments de menu (li) avec des liens (a)
+            var pages = ["Page 2", "Page 4"];
+
+            for (var i = 0; i < pages.length; i++) {
+                var li = document.createElement("li");
+                var a = document.createElement("a");
+                a.href = "page" + (i === 0 ? 2 : 4) + ".html";// Lien vers les pages
+                a.textContent = pages[i];
+                li.appendChild(a);
+                ul.appendChild(li);
+            }
+
+            // Ajoutez la liste au menu
+            menu.appendChild(ul);
+        }
+
+        // Attachez la fonction de création du menu au chargement de la page
+        window.addEventListener("load", creerMenu);
+    </script>
+   
     
    <h1>Commandes Git</h1>
    <h2>Utilisation</h2>
